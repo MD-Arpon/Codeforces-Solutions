@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve()
+{
+    int n;
+    cin>>n;
+    int cnt = 0;
+    for(int i = 1,j=n-1;i<n,j>0;i++,j--)
+    {
+        cnt++;
+    }
+    cout<<cnt<<endl;
+}
+int main ()
+{
+
+    int t; cin>>t;
+    while(t--)
+    {
+        solve();
+    }
+    return 0;
+}
